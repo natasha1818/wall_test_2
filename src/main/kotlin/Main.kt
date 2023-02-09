@@ -120,6 +120,17 @@ fun main() {
         true,
         true,
     )
+    val post6 = Post(
+        7,
+        6565,
+        2222,
+        "01/02/2023",
+        "Ложась на спину, кошки показывают своё доверие к человеку.",
+        false,
+        true,
+        true,
+        true,
+    )
     WallService.add(post)
     WallService.add(post2)
     WallService.add(post3)
